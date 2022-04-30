@@ -1,0 +1,14 @@
+@media only screen and (max-width: 769px) {
+  main {
+    flex-wrap: wrap;
+  }
+  .img1,
+  .img2,
+  .img3 {
+    width: 300px;
+  }
+  .img3,
+  .img2 {
+    margin-top: 20px;
+  }
+}
