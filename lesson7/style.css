@@ -1,0 +1,40 @@
+/*Blur in CSS*/
+article img[data-src] {
+  filter: blur(0.2em);
+}
+
+article img {
+  filter: blur(0em);
+  transition: filter 0.5s;
+}
+
+/*----------------*/
+
+body {
+  width: 50em;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  align-content: center;
+  background-color: #c2c5aa;
+}
+header {
+  border: 10px solid black;
+}
+h1 {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.content-box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.images {
+  margin: 10px 0px;
+  padding: 5px;
+  border: 3px solid black;
+  width: 400px;
+  height: 300px;
+}
