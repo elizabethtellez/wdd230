@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+}
+
+h2,
+h1,
+p,
+footer {
+  text-align: center;
+  color: #373f51;
+  font-family: "Roboto Slab", serif;
+}
+
+h2,
+p {
+  margin: 0.5rem;
+}
+p:nth-child(3) {
+  margin-bottom: 1rem;
+}
+h1 {
+  font-size: 3rem;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  background-color: #d8dbe2;
+  margin: 1rem;
+  padding: 1rem;
+  box-shadow: 0 0 3rem;
+}
+.cards > section {
+  border: solid 0.1rem black;
+  margin: 0.2rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #58a4b0;
+}
+img {
+  width: 13rem;
+  margin: 0 auto;
+  margin-bottom: 0.5rem;
+  box-shadow: 0 0 1rem black;
+}
+footer {
+  background-color: whitesmoke;
+  padding: 2rem;
+  font-size: 1.5rem;
+}
