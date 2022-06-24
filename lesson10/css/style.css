@@ -1,0 +1,11 @@
+
+h1, .weather_card, .weather_card figcaption 
+{
+    text-align: center;
+}
+
+h1
+{
+    text-decoration: underline;
+    color: black;
+}
