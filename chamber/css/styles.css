@@ -1,0 +1,17 @@
+#article,
+#join,
+#hero,
+#information {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+div {
+  text-align: center;
+}
+li {
+  text-align: start;
+}
+#information {
+  gap: 1rem;
+}

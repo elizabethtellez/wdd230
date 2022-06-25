@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/small.css">
+    <link rel="stylesheet" href="./css/medium.css">
+    <link rel="stylesheet" href="./css/larger.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <script defer src="./js/current_date.js"></script>
+    <script defer src="../js/date.js"></script>
+    <title>Preston 4</title>
+</head>
+<body>
+    <header>
+        <div class="nav_main">
+            <div class="content_header">
+                <img src="images/logo.png" alt="logo" class="logo">
+                <div class="header_content_2">
+                    <h1>Shaver Lake</h2>
+                    <p>Chamber of Commerce</p>
+                </div>
+            </div>
+            <div class="social_media">
+                <a href="https://es-la.facebook.com/" ><img src="images/facebook.png" alt="social_media" class="social_media_block"></a>
+                <a href="https://mx.linkedin.com/" ><img src="images/likendin.png" alt="social_media" class="social_media_block"></a>
+            </div>
+            <div class="date_div">
+                <div class="date"></div>
+            </div>
+            <nav class="navbar">
+                <button id="hamburgerBtn" onclick="background_border()"><span>&#9776</span><span>X</span></button>
+                <ul id="primaryNav">
+                    <li class="navbar_list"><a href="#">Home</a></li>
+                    <li class="navbar_list active"><a href="#">Discover</a></li>
+                    <li class="navbar_list"><a href="../lesson9B/directory.html">Directory</a></li>
+                    <li class="navbar_list"><a href="../lesson8B/join.html">Join</a></li>
+                    <li class="navbar_list"><a href="../lesson7B/discover.html">Gallery</a></li>
+                    <li class="navbar_list"><a href="../lesson11/contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <main>
+        <div class="content">
+            <h2 class="main_header">Preston 4</h2>
+            <div class="main_content_box">
+                <div class="content_box" id="hero">Shaver Lake White Christmas
+                    <img src="./images/christmas.jpg" alt="White Christmas" height="300" >
+                </div>
+                <div class="content_box" id="forecast"></div>
+                <div class="content_box" id="article">Recreation
+                    <ul>
+                        <li>Bicycling</li>
+                        <li>Camping & Cabins</li>
+                        <li>Fishing</li>
+                        <li>Hiking</li>
+                        <li>Hunting</li>
+                        <li>Horse Riding</li>
+                        <li>Picnicking</li>
+                    </ul>
+                </div>
+                <div class="content_box" id="information">News
+                    <h4>Snow complicates travel as Families head to the mountains</h4>
+                    <p>The California Highway Patrol is reminding people to drive 
+                        cautiously and remember to bring chains while driving on icy roads.</p>
+                </div>
+                <div class="content_box extra" id="join">Join
+                    <p>Join the chamber and learnn how you can make an impact on your community!</p>
+                    <button onclick="location.href='../lesson8b/join.html'" type="button" >Join Now!</button>
+                </div>
+                <div class="content_box spotlight_box" id="spotlight">
+                    <div class="spotlight1 spotlight"><b>National Appeals</b>
+                        <p>This site contains information about the Forest Service's 
+                            Environmental Appeals. An appeal is a request to an agency 
+                            higher authority for review of an environmental decision.</p>
+                    </div>
+                    <div class="spotlight2 spotlight"><b> Responses </b>
+                        <p>Recent and historical objection responses are available 
+                            on this site and are organized by the Administrative Unit issuing the response. </p>
+                    </div>
+                    <div class="spotlight3 spotlight extra"><b>Sierra National Plan</b>
+                        <p>The Sequoia and Sierra National Forests are revising their forest land management 
+                            plans using the 2012 Planning Rule, which provides a framework for U.S. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    
+    <footer>
+        <div class="content_box " id="footer_content_box">
+            <img src="./images/logo.png" alt="favicon" class="foot_img">
+            <div class="footer_top">
+                <div class="foot_content">
+                    <div class="left_side">
+                        <h3>Shaver Lake Chamber</h3>
+                        <h4>Santa Julia 30</h4>
+                    </div>
+                    <div class="right_side">
+                        <p>tellezelizabethmf@gmail.com</p>
+                        <p>+(52)871-4763-356</p>
+                        <p>Location Map</p> 
+                    </div>
+                </div>
+            </div>
+            <div class="foot_bot">
+                &copy;
+                <span id="currentyear">2022</span>
+                Shaver Lake Chamber | Elizabeth Tellez | WDD 230 Project | <span id="lastmod"> </span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/scripts.js"></script>
+</body>
+</html>

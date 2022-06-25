@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../chamber/css/normalize.css">
+    <link rel="stylesheet" href="../chamber/css/small.css">
+    <link rel="stylesheet" href="../chamber/css/medium.css">
+    <link rel="stylesheet" href="../chamber/css/larger.css">
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="../chamber/js/current_date.js"></script>
+    <script defer src="../js/date.js"></script>
+  </head>
+  <body>
+    <div class="content">
+      <header>
+        <div class="nav_main">
+            <div class="content_header">
+                <img src="../chamber/images/logo.png " alt="logo" class="logo">
+                <div class="header_content_2">
+                    <h1>Shaver Lake</h2>
+                    <p>Chamber of Commerce</p>
+                </div>
+            </div>
+            <div class="social_media">
+                <a href="https://es-la.facebook.com/" ><img src="../chamber/images/facebook.png" alt="social_media" class="social_media_block"></a>
+                <a href="https://mx.linkedin.com/" ><img src="../chamber/images/likendin.png" alt="social_media" class="social_media_block"></a>
+            </div>
+            <div class="date_div">
+                <div class="date"></div>
+            </div>
+            <nav class="navbar">
+                <button id="hamburgerBtn" onclick="background_border()"><span>&#9776</span><span>X</span></button>
+                <ul id="primaryNav">
+                    <li class="navbar_list"><a href="#">Home</a></li>
+                    <li class="navbar_list active"><a href="../chamber/index.html">Discover</a></li>
+                    <li class="navbar_list"><a href="../lesson9B/directory.html">Directory</a></li>
+                    <li class="navbar_list"><a href="../lesson8B/join.html">Join</a></li>
+                    <li class="navbar_list"><a href="../lesson7B/discover.html">Gallery</a></li>
+                    <li class="navbar_list"><a href="../lesson11/contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+        <main>
+          <form action="thankyou.html" method="get">
+            <div class="firstName typeText">
+              <label for="firstName">Enter First Name:</label>
+              <input name="firstName" required type="text">
+            </div>
+
+            <div class="lastName typeText">
+              <label for="secondName">Enter Last Name:</label>
+              <input name="secondName" required type="text">
+            </div>
+
+            <div class="businessPosition typeText">
+              <label for="BusinessPosition">Enter your business position title</label>
+              <input name="BusinessPosition" type="text">
+            </div>
+
+            <div class="email typeText">
+              <label for="email">Email:</label>
+              <input class="email" required type="email" placeholder="example@gmail.com">
+            </div>
+
+            <div class="cellphoneNumber typeText">
+              <label for="cellphone">Cellphone Number(required):</label>
+              <input type="tel" required name="cellphone" class="cellphone" id="cellphone">
+            </div>
+
+            <div class="businessName typeText">
+              <label for="businessName">Business Name/Title: </label>
+              <input type="text" required name="businessName" id="businessName">
+            </div>
+
+            <h2>Choose a Membership level</h2>
+            <div class="radio1 radioOption">
+              <input type="radio" name="Membership" id="NPMembership">
+              <label for="NPMembership">NP Membership is for non profit organizations and there is no fee.</label>
+            </div>
+            <div class="radio2 radioOption">
+              <input type="radio" name="Membership" id="bronzeMembership">
+              <label for="bronzeMembership">Bronze Membership.</label>
+            </div>
+            <div class="radio3 radioOption">
+              <input type="radio" name="Membership" id="silverMembership">
+              <label for="silverMembership">Silver Membership.</label>
+            </div>
+            <div class="radio4 radioOption">
+              <input type="radio" name="Membership" id="goldMembership">
+              <label for="goldMembership">Gold Membership</label>
+            </div>
+
+            <div class="hiddenField">
+              <input type="hidden" name="hiddenField" id="hiddenField" value="date">
+            </div>
+            <div class="textArea">
+              <label for="desription">Enter a small description of your Business:</label>
+              <textarea name="description" id="description" cols="30" rows="10"></textarea>
+            </div>
+
+            <div class="submit">
+              <label for="submit">Click to Submit</label>
+              <input type="submit" name="submit" value="SUBMIT">
+            </div>
+          </form>
+        </main>
+    </div>
+    <script type="text/javascript" src="../chamber/js/scripts.js"></script>
+    <script type="text/javascript" src="../lesson8B/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,100 @@
+{
+    "business": [
+        {
+            "name": "Maxus Global",
+            "addresses": "Miramar San Diego, California",
+            "phones": "619-236-5555",
+            "websites": "https://www.maxusglobal.co.uk/",
+            "imageURL": "https://www.maxusglobal.co.uk/mg-assets/images/logo.gif",
+            "iconFileName": "maxus.png"
+        },
+        {
+            "name": "Siege Media",
+            "addresses": "Clairemont Mesa West, San Diego California",
+            "phones": "619-548-6325",
+            "websites": "https://www.siegemedia.com/",
+            "imageURL": "https://www.siegemedia.com/wp-content/themes/SiegeMedia2017/assets/imgs/logo.svg",
+            "iconFileName": "siege.png"
+        },
+        {
+            "name": "Ketchum",
+            "addresses": "SVP, Marketplace Leader LA, 5353 Grosvenor Blvd, Los Angeles, CA 90066",
+            "phones": "+1 310 437 2505",
+            "websites": "https://www.ketchum.com/",
+            "imageURL": "https://www.ketchum.com/wp-content/uploads/2020/03/KETCHUM_LOGO_TAGLINE_FINAL_FF.png",
+            "iconFileName": "ketchum.png"
+        },
+        {
+            "name": "Burson-Marsteller, LLC",
+            "addresses": "230 Park Ave S Lbby 2 New York, NY, 10003-1528 United States",
+            "phones": "(212) 614-4000",
+            "websites": "https://www.dnb.com/",
+            "imageURL": "https://www.dnb.com/content/dam/english/image-library/Modernization/logos/logo-dnb.svg",
+            "iconFileName": "burson.png"
+        },
+        {
+            "name": "Cubicle Ninjas",
+            "addresses": "200 Fifth Avenue New York, NY 10010",
+            "phones": "+1 212 601 3000",
+            "websites": "https://cubicleninjas.com/",
+            "imageURL": "https://cubicleninjas.com/wp-content/uploads/2019/06/CN_Logo_Color.jpg",
+            "iconFileName": "cubicle.png"
+        },
+        {
+            "name": "Freeman",
+            "addresses": "1600 Viceroy Drive Dallas, TX 75235",
+            "phones": "1-800-423-8416",
+            "websites": "https://www.freeman.com/",
+            "imageURL": "https://www.freeman.com/wp-content/uploads/2020/12/freeman-logo@2x-1.png",
+            "iconFileName": "freeman.png"
+        },
+        {
+            "name": "Edelman",
+            "addresses": "2940 114th Street Grand Prairie, TX 75050",
+            "phones": "1-800-523-6456",
+            "websites": "https://www.luminary.com/",
+            "imageURL": "https://www.luminary.com/assets/images/luminary-logo.svg",
+            "iconFileName": "edelman.png"
+        },
+        {
+            "name": "Juice",
+            "addresses": "1001 SE Water Ave Suite 350 Portland, OR 97214",
+            "phones": "1-800-846-2345",
+            "websites": "https://www.thinkjuice.com/",
+            "imageURL": "https://www.thinkjuice.com/wp-content/uploads/2018/06/juice-logo-white.png",
+            "iconFileName": "juice.png"
+        },
+        {
+            "name": "Weber Shandwick",
+            "addresses": "909 3rd Avenue New York, NY 10022",
+            "phones": "212-445-8000",
+            "websites": "https://www.webershandwick.com/",
+            "imageURL": "https://www.webershandwick.com/wp-content/uploads/2019/04/header-logo-lockup-white.png",
+            "iconFileName": "weber.png"
+        },
+        {
+            "name": "Fleishmanhillard",
+            "addresses": "One Alliance Center, Suite 2000 3500 Lenox Road Atlanta, Georgia 30326 United States",
+            "phones": "+1-404-659-4446",
+            "websites": "https://fleishmanhillard.com/",
+            "imageURL": "https://fleishmanhillard.com/wp-content/uploads/2021/02/header-logo-white.png",
+            "iconFileName": "fleishman.png"
+        },
+        {
+            "name": "Lyfe Marketing",
+            "addresses": "2251 San Diego Ave a250, San Diego, CA 92110, Estados Unidos",
+            "phones": "+1 619-501-1211",
+            "websites": "https://www.lyfemarketing.com/",
+            "imageURL": "https://www.lyfemarketing.com/wp-content/uploads/2015/06/LYFE-Marketing-social-media-marketing-company.png",
+            "iconFileName": "lyfe.png"
+        },
+        {
+            "name": "Major Tom",
+            "addresses": "350 Tenth Ave, San Diego, CA 92101, Estados Unidos",
+            "phones": "+1 619-237-5552",
+            "websites": "https://www.majortom.com/",
+            "imageURL": "https://www.majortom.com/hubfs/Major_Tom_2021/Images/header-logo.svg",
+            "iconFileName": "major.png"
+        }
+    ]
+}
