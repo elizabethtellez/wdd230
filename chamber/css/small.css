@@ -104,8 +104,8 @@ nav ul li a {
 }
 
 nav ul li.active a {
-  background-color: black;
-  color: white;
+  background-color: #e5e4e5;
+  color: black;
 }
 
 nav ul li a:hover {
@@ -114,12 +114,14 @@ nav ul li a:hover {
 }
 
 #hamburgerBtn {
-  border: 1px solid #FCA311;
-  color: #fca311;
+  color: white;
+  background-color: #14213D;
  
 }
 nav ul.open {
   display: block;
+  background-color:#14213D;
+  color: white;
 }
 
 #hamburgerBtn span:nth-child(1) {

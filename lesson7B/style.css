@@ -1,91 +1,107 @@
 main {
   font-size: 25px;
+  background-color: white;
 }
-.content_box {
+main .content_box {
   width: 45em;
   margin: 0 auto;
-  border: 5px solid lightblue;
-  border-radius: 3em;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border: none;
 }
-h1 {
+main h1 {
   font-size: 2em;
   text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: black;
 }
-ul {
+main h2 {
+  font-size: 1em;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: black;
+}
+main ul {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(5, 1fr);
 }
 
-ul:nth-child(1) {
+main ul:nth-child(1) {
   grid-column: 1/2;
   grid-row: 1/2;
 }
-ul:nth-child(2) {
+main ul:nth-child(2) {
   grid-column: 2/3;
   grid-row: 1/2;
 }
-ul:nth-child(3) {
+main ul:nth-child(3) {
   grid-column: 1/2;
   grid-row: 2/3;
 }
-ul:nth-child(4) {
+main ul:nth-child(4) {
   grid-column: 2/3;
   grid-row: 2/3;
 }
-ul:nth-child(5) {
+main ul:nth-child(5) {
   grid-column: 1/2;
   grid-row: 3/4;
 }
-ul:nth-child(6) {
+main ul:nth-child(6) {
   grid-column: 2/3;
   grid-row: 3/4;
 }
-ul:nth-child(7) {
+main ul:nth-child(7) {
   grid-column: 1/2;
   grid-row: 4/5;
 }
-ul:nth-child(8) {
+main ul:nth-child(8) {
   grid-column: 2/3;
   grid-row: 4/5;
 }
-ul:nth-child(9) {
+main ul:nth-child(9) {
   grid-column: 1/2;
   grid-row: 5/6;
 }
-ul:nth-child(10) {
+main ul:nth-child(10) {
   grid-column: 2/3;
   grid-row: 5/6;
 }
 
-li {
+main li {
   text-decoration: none;
   list-style-type: none;
   font-size: 200px;
   display: flex;
   flex-direction: column;
 }
-li img[data-src] {
+main li img[data-src] {
   filter: blur(0.2em);
 }
 
-li img {
+main li img {
   filter: blur(0em);
 }
-img {
+main img {
   margin: 0 auto;
   width: 2em;
   height: 2em;
 }
-img:hover {
+main img:hover {
   border-radius: 2em;
   box-shadow: 0 0 50px #333;
 }
-.transition {
+main .transition {
   transition: border-radius 1.5s, box-shadow 1.5s, filter 0.5s;
 }
-figcaption {
-  font-size: 0.05em;
+main figcaption {
+  font-size: 0.08em;
+  font-family: "Poppins", sans-serif;
   margin: 30px 0;
   text-align: center;
+  color: black;
 }
+
+
