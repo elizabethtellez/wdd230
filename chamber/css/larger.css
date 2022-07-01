@@ -77,6 +77,14 @@
     width: 200px;
     display: inline-flex;
   }
+  div.content_box2 {
+   display: inline-flex;
+   margin: 5px;
+   color: white;
+   height: 200px;
+   width: 200px;
+
+  }
   div.spotlight_box {
     display: flex;
     padding: 12px 20px;

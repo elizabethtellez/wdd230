@@ -218,3 +218,11 @@ h1 {
 #forecast :nth-child(6) {
   grid-row: 3/4;
 }
+.weather-box {
+  font-size: 2em;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 90%;
+  padding: 0.6em;
+  margin: 0 auto;
+}
