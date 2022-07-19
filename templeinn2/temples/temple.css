@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+  }
+  
+  h2,
+  h1,
+  p,
+  footer {
+    text-align: center;
+
+
+  }
+  
+  h2,
+  p {
+    margin: 0.5rem;
+  }
+  p:nth-child(3) {
+    margin-bottom: 1rem;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    margin: 1rem;
+    padding: 1rem;
+ 
+  }
+  .cards > section {
+
+    margin: 0.2rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #D6CCC2;
+  }
+  img {
+    width: 13rem;
+    margin: 0 auto;
+    margin-bottom: 0.5rem;
+  }
+  footer {
+    background-color: whitesmoke;
+    padding: 2rem;
+    font-size: 1.5rem;
+  }
+  

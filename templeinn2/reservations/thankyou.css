@@ -1,0 +1,23 @@
+:root {
+  --navHeight: 146px;
+  --totalHeight: 100vh;
+  --paddingTop: 2rem;
+}
+main {
+  width: 70%;
+  height: calc(var(--totalHeight) - 40vh);
+  margin: 3rem auto;
+  padding: 2rem;
+  background-color: rgb(152, 162, 119);
+  border: 0.3rem solid black;
+  border-radius: 0.9rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+h2 {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+}

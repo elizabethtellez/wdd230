@@ -1,0 +1,58 @@
+{
+    "prophets": [
+      {
+        "name": "Ciudad Juarez Mexico",
+        "lastname": "Temple",
+        "dedicated": "26 February 2000", 
+        "length": 14,
+        "order": 1,
+        "location": "Ciudad Juarez, Chihuahua",
+        "temail": "no email",
+        "imageurl": "https://assets.ldscdn.org/53/b0/53b0a9c5f138cfad4fa5efd4beabfa9763a59a52/ciudad_juarez_mexico_temple_lds.jpeg",
+        "address": "Calle Paraguay # 290 Col. Partido Romero 32177",   
+        "telephone": "(52) 656-611-5146",   
+        "templeClosure": "Monday, 30 May 2022 - Monday, 13 June 2022 / Saturday, 1 October 2022 Monday / 28 November 2022 - Monday, 6 February 2023"   
+              
+    },
+      {
+        "name": "Guadalajara Mexico",
+        "lastname": "Temple",
+        "dedicated": "29 Abril 2001", 
+        "length": 14,
+        "order": 2,
+        "location": "Zapopan, Jalisco",
+        "temail": "no email",
+        "imageurl": "https://assets.ldscdn.org/d2/66/d266f251c0f00c5c5e4c102177556009bb662252/guadalajara_temple_lds.jpeg",
+        "address": "Av. Patria #879 Fracc. Jardines Tepeyac 45030",   
+        "telephone": "(52) 33-3125-1283",   
+        "templeClosure": "Saturday, 1 October 2022 - Monday, 3 October 2022 / Monday, 28 November 2022 - Monday, 12 December 2022 / Saturday, 24 December 2022 - Monday, 26 December 2022 / Saturday, 31 December 2022 - Monday, 2 January 2023"
+      },
+      {
+        "name": "Mexico City Mexico",
+        "lastname": "Temple",
+        "dedicated": "2 December 1983", 
+        "length": 14,
+        "order": 3,
+        "location": "Mexico, Distrito Federal",
+        "temail": "no email",
+        "imageurl": "https://assets.ldscdn.org/05/ba/05baca7fd19cb67cd1379e82b1d38ef996ec2eb2/mexico_city_temple_lds.jpg",
+        "address": "Avenida 510 #90 Col. San Juan de Aragon 07950 ",   
+        "telephone": "(52) 55-5003-3700",   
+        "templeClosure": "Monday, 27 June 2022 - Monday, 11 July 2022 / Saturday, 1 October 2022 / Saturday, 24 December 2022 / Saturday, 31 December 2022"
+      },
+      {
+        "name": "Tijuana Mexico",
+        "lastname": "Temple",
+        "dedicated": "13 December 2015", 
+        "length": 14,
+        "order": 3,
+        "location": "Tijuana, Baja California",
+        "temail": " no email ",
+        "imageurl": "https://assets.ldscdn.org/2e/5e/2e5ec687d991bf0427ec2673d34d0faa61ac4ee6/tijuana_mexico_temple_exterior.png",
+        "address": "Paseo Del Rio 6832 Col 3 RA Etapa Rio Tijuana, 22226",   
+        "telephone": "(52) 664-969-2690",   
+        "templeClosure": "Monday, 27 June 2022 - Monday, 11 July 2022 / Saturday, 1 October 2022 / Monday, 28 November 2022 - Monday, 12 December 2022 / Saturday, 24 December 2022 / Saturday, 31 December 2022"
+      }
+      
+    ]
+  }

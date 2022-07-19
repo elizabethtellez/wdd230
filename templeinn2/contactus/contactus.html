@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Join</title>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/small.css">
+    <link rel="stylesheet" href="../css/medium.css">
+    <link rel="stylesheet" href="../css/larger.css">
+    <link rel="stylesheet" href="../reservations/style.css">
+    <link rel="stylesheet" href="./script.js">
+    <script defer src="../js/current_date.js"></script>
+    <script defer src="../js/date.js"></script>
+  </head>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Raleway:wght@400;500&family=Roboto+Slab&display=swap');
+  </style>
+  <body>
+    <div class="content">
+      <header>
+        <div class="nav_main">
+            <div class="content_header">
+                <img src="../images/logo.png " alt="logo" class="logo">
+                <div class="header_content_2">
+                    <h1>Temple Inn & Suites</h2>
+                </div>
+            </div>
+            <div class="social_media">
+                <a href="https://es-la.facebook.com/" ><img src="../images/facebook.png" alt="social_media" class="social_media_block"></a>
+                <a href="https://mx.linkedin.com/" ><img src="../images/likendin.png" alt="social_media" class="social_media_block"></a>
+            </div>
+            <div class="date_div">
+                <div class="date"></div>
+            </div>
+            <nav class="navbar">
+                <button id="hamburgerBtn" onclick="background_border()"><span>&#9776</span><span>X</span></button>
+                <ul id="primaryNav">
+                    <li class="navbar_list"><a href="../index.html">Home</a></li>
+                    <li class="navbar_list"><a href="../temples/temple.html">Temples</a></li>
+                    <li class="navbar_list"><a href="../reservations/reservations.html">Reservations</a></li>
+                    <li class="navbar_list active"><a href="../contactus/contactus.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+        <h1 id="contactHeader">Contact Us</h1>
+        <p> Send us your questions or comments using the form below. We will respond promptly to your inquiry.
+        
+        <main> 
+
+          <form action="thankyou.html" method="get">
+            <div class="firstName typeText">
+              <label for="firstName">Name: </label>
+              <input name="firstName" required type="text" placeholder="Joe Smith">
+            </div>
+
+            <div class="lastName typeText">
+              <label for="organizationName">Organization: </label>
+              <input name="organizationName" required type="text" placeholder="Company, Inc">
+            </div>
+
+            <div class="mailingAdress typeText">
+              <label for="MailingAddress">Mailing Address: </label>
+              <input name="MailingAddress" type="text" placeholder="123 Example Street">
+            </div>
+
+            <div class="mailingAdress2 typeText">
+               <label for="MailingAddress2">Mailing Address 2: </label>
+               <input name="MailingAddress2" type="text" placeholder="Suite 900">
+            </div>
+
+            <div class="yourCity typeText">
+               <label for="YourCity"> City: </label>
+               <input name="YourCity" type="text" placeholder="Fresno">
+            </div>
+
+            <div class="yourState typeText">
+               <label for="YourState"> State: </label>
+               <input name="YourState" type="text" placeholder="CA">
+            </div>
+
+            <div class="yourPCode typeText">
+                <label for="YourPCode"> Postal Code: </label>
+                <input name="YourPCode" type="number" placeholder="54321">
+             </div>
+
+
+            <div class="email typeText">
+              <label for="email">Email:</label>
+              <input class="email" required type="email" placeholder="youremail@domain.com">
+            </div>
+
+            <div class="cellphoneNumber typeText">
+              <label for="cellphone">Cellphone Number(required):</label>
+              <input type="tel" required name="cellphone" class="cellphone" id="cellphone" placeholder="(000) 000-0000">
+            </div>
+
+            <div class="textArea">
+              <label for="desription">Comments/Questions</label>
+              <textarea name="description" id="description" cols="30" rows="10"></textarea>
+            </div>
+
+            <div class="submit">
+              <label for="submit">Click to Submit</label>
+              <input type="submit" name="submit" value="SUBMIT">
+            </div>
+          </form>
+        </main>
+        
+    </div>
+    <script type="text/javascript" src="../js/scripts.js"></script>
+    <script type="text/javascript" src="./script.js"></script>
+  </body>
+</html>
